@@ -1,3 +1,7 @@
+<?php
+$page_title = "Page not found";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include "modules/head.php"; ?>
