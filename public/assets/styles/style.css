@@ -1,0 +1,43 @@
+/*
+--- GLOBALS ---
+Variables, global definitions
+*/
+
+:root {
+    /*color palette */
+    --text-color: rgb(0, 0, 0);
+
+    /*transitions time*/
+    --delay-short: 200ms;
+    --delay-mid: 500ms;
+    --delay-long: 1000ms;
+}
+
+:root[data-theme="dark"] {
+    --text-color: rgb(255, 255, 255);
+}
+
+* {
+    font-family: system-ui, sans-serif;
+}
+
+.visible-link {
+    color: var(--text-color);
+    transition: var(--delay-short) ease;
+}
+.visible-link:hover {
+    text-decoration: none;
+}
+
+
+/*
+--- UTILS ---
+Bootstrap-like classes etc.
+*/
+
+
+/* --- NAVIGATION --- */
+
+/* --- HEADER --- */
+
+/* --- FOOTER --- */

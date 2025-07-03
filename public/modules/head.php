@@ -13,5 +13,5 @@ if (!isset($page_title)) {
     <meta name="description" content="My personal website">
     <meta name="author" content="salamelek, Samuel Sluga">
 
-    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
