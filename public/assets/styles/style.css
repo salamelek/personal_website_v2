@@ -21,6 +21,10 @@ Variables, global definitions
     font-family: system-ui, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .visible-link {
     color: var(--text-color);
     transition: var(--delay-short) ease;
@@ -37,7 +41,47 @@ Bootstrap-like classes etc.
 
 
 /* --- NAVIGATION --- */
+.nav-container {
+    padding: 0 2em;
+}
 
 /* --- HEADER --- */
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container div {
+    text-align: center;
+}
+
+/* --- MAIN --- */
+.main-container {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 60em;
+}
+
+@media (min-width: 600px) {
+    .main-container {
+        padding: 1em 2em;
+    }
+}
 
 /* --- FOOTER --- */
+.footer-container div {
+    padding: 0 1em;
+}
+
+@media (min-width: 600px) {
+    .footer-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-container div {
+        padding: 0 2em;
+    }
+}
+
+

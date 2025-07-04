@@ -6,18 +6,18 @@
     <?php include "modules/header.php"; ?>
 
     <main>
-        <p>
-            I see you've stumbled upon this collection of publicly available files... How peculiar. In the remote case
-            of you being my potential employer, I advise you to go to the <a href="/cv" class="visible-link">cv</a>
-            section of this website, as this is the "personal" side of the website. <br>
-            On the other hand, in the case of you being someone interested in what I do or just an admirer of this
-            wonderful website, I wish you a pleasant and enjoyable experience :>
-        </p>
+        <div class="main-container">
+            <p>
+                Oh, kako zanimivo! Med vsemi možnimi spletišči si naletel prav na tega? To pa ni vsakodnevni pojav!
+                V neverjetnem primeru, da nisi le skripta in da je ta stran pritegnila tvojo pozornost, želim ti prijetno
+                branje in vso srečo z razumevanjem te moje prelepe slovenščine.
+            </p>
 
-        <a href="/about" class="visible-link">about me</a><br>
-        <a href="/projects" class="visible-link">projects</a><br>
-        <a href="/cv" class="visible-link">curriculum</a><br>
-        <a href="" class="visible-link"></a>
+            <a href="/about" class="visible-link">O meni</a><br>
+            <a href="/projects" class="visible-link">Projekti</a><br>
+            <a href="/cv" class="visible-link">Curriculum</a><br>
+            <a href="" class="visible-link"></a>
+        </div>
     </main>
 
     <?php include "modules/footer.php"; ?>
