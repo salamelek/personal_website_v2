@@ -2,6 +2,7 @@
 ?>
 
 <footer>
+    <hr>
     <div class="footer-container">
         <div>
             <h3>Kontaktirate me lahko preko sledečih kanalov:</h3>
