@@ -6,6 +6,7 @@ Variables, global definitions
 :root {
     /*color palette */
     --text-color: rgb(0, 0, 0);
+    --bcg-color: rgb(255, 255, 255);
 
     /*transitions time*/
     --delay-short: 200ms;
@@ -23,7 +24,7 @@ Variables, global definitions
 
 body {
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .visible-link {
@@ -47,6 +48,10 @@ body {
 Bootstrap-like classes etc.
 */
 
+.hidden {
+    display: none;
+}
+
 
 /* ===== NAVIGATION ===== */
 .nav-container {
@@ -58,14 +63,44 @@ Bootstrap-like classes etc.
 
 /* Index */
 .index-container {
-    position: absolute;
+    z-index: 3;
+
+    max-width: 50%;
+
+    position: fixed;
+    background: var(--bcg-color);
     right: 0;
+    padding: 0 1em;
+
+    border: 2px solid black;
+    border-right: none;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
 
     transform: translateX(100%);
     transition: var(--delay-short) ease;
 }
+
+.index-container h4 {
+    margin: 0;
+}
+.index-container p {
+    margin-top: 0;
+}
+
 .index-shown {
     transform: translateX(0);
+}
+
+.exit-index-interaction {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    cursor: pointer;
 }
 
 /* ===== HEADER ===== */
@@ -89,6 +124,14 @@ Bootstrap-like classes etc.
     .main-container {
         padding: 1em 2em;
     }
+}
+
+/* ===== PROJECTS ===== */
+.project-card {
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 1em 2em;
+    margin: 2em 0;
 }
 
 /* ===== FOOTER ===== */

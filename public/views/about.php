@@ -1,5 +1,5 @@
 <?php
-$page_title = "About me";
+$page_title = "O meni";
 ?>
 
 <!DOCTYPE html>
