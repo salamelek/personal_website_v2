@@ -127,11 +127,26 @@ Bootstrap-like classes etc.
 }
 
 /* ===== PROJECTS ===== */
+.project-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .project-card {
+    cursor: pointer;
+    
     border: 2px solid black;
     border-radius: 2em;
+    
     padding: 1em 2em;
-    margin: 2em 0;
+    margin: 1em;
+    max-width: 20em;
+
+    transition: var(--delay-short) ease;
+}
+.project-card:hover {
+    transform: scale(1.05);
 }
 
 /* ===== FOOTER ===== */

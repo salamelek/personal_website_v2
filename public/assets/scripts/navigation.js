@@ -1,6 +1,3 @@
-let index_shown = false;
-
-
 function handle_navigation_button(exit_box) {
     let navigation_index = document.getElementById("navigation-index");
     navigation_index.classList.toggle("index-shown");
