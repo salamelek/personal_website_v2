@@ -12,11 +12,6 @@
                 V neverjetnem primeru, da nisi le skripta in da je ta stran pritegnila tvojo pozornost, želim ti prijetno
                 branje in vso srečo z razumevanjem te moje prelepe slovenščine.
             </p>
-
-            <a href="/about" class="visible-link">O meni</a><br>
-            <a href="/projects" class="visible-link">Projekti</a><br>
-            <a href="/cv" class="visible-link">Curriculum</a><br>
-            <a href="" class="visible-link"></a>
         </div>
     </main>
 

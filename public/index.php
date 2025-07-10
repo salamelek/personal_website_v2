@@ -1,11 +1,15 @@
 <?php
-require_once "routes/web.php";
+$request = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
+$request = rtrim($request, "/");
 
-$requestedUri = $_SERVER["REQUEST_URI"];
-$requestedUri = strtok($requestedUri, "?");
-
-if (!array_key_exists($requestedUri, $routes)) {
-    include __DIR__ . "/views/404.php";
+if ($request === "") {
+    $request = "index";
 }
 
-include __DIR__ . "/views/" . $routes[$requestedUri];
+$path = __DIR__ . "/views/$request.php";
+
+if (file_exists($path)) {
+    include $path;
+} else {
+    include __DIR__ . "/views/404.php";
+}

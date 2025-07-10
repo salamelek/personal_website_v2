@@ -3,6 +3,7 @@
 Variables, global definitions
 */
 
+
 :root {
     /*color palette */
     --text-color: rgb(0, 0, 0);
@@ -24,7 +25,6 @@ Variables, global definitions
 
 body {
     margin: 0;
-    overflow-x: hidden;
 }
 
 .visible-link {
@@ -32,6 +32,11 @@ body {
     transition: var(--delay-short) ease;
 }
 .visible-link:hover {
+    text-decoration: none;
+}
+
+.div-link {
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -80,16 +85,15 @@ Bootstrap-like classes etc.
     transform: translateX(100%);
     transition: var(--delay-short) ease;
 }
+.index-shown {
+    transform: translateX(0);
+}
 
 .index-container h4 {
     margin: 0;
 }
 .index-container p {
     margin-top: 0;
-}
-
-.index-shown {
-    transform: translateX(0);
 }
 
 .exit-index-interaction {
@@ -147,6 +151,25 @@ Bootstrap-like classes etc.
 }
 .project-card:hover {
     transform: scale(1.05);
+}
+
+/* --- PROJECT --- */
+.project-main-image {
+    max-width: calc(min(30em, 100%));
+    max-height: calc(min(20em, 100%));
+}
+
+@media (min-width: 600px) {
+    .limit-size {
+        max-width: 50%;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap: 1em;
+    }
 }
 
 /* ===== FOOTER ===== */

@@ -2,6 +2,10 @@
 if (!isset($page_title)) {
     $page_title = "Salamelek's website";
 }
+
+if (!isset($page_image)) {
+    $page_image = "/assets/images/logo.png";
+}
 ?>
 
 <head>
@@ -13,6 +17,6 @@ if (!isset($page_title)) {
     <meta name="description" content="My personal website">
     <meta name="author" content="salamelek, Samuel Sluga">
 
-    <link rel="stylesheet" href="assets/styles/style.css">
-    <script type="module" src="assets/scripts/main.js"></script>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <script type="module" src="/assets/scripts/main.js"></script>
 </head>
