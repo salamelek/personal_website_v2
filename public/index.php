@@ -1,5 +1,7 @@
 <?php
-function log_visit() {
+
+
+function log_visit(): void {
     $ip = $_SERVER["REMOTE_ADDR"] ?? "unknown";
     $timestamp = date("Y-m-d H:i:s");
     $uri = $_SERVER["REQUEST_URI"];
@@ -13,19 +15,24 @@ function log_visit() {
     file_put_contents(dirname(__DIR__) . "/logs/visits.log", $logLine, FILE_APPEND | LOCK_EX);
 }
 
+
+function redirect_link(): void {
+    $request = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
+    $request = rtrim($request, "/");
+
+    if ($request === "") {
+        $request = "index";
+    }
+
+    $path = __DIR__ . "/views/$request.php";
+
+    if (file_exists($path)) {
+        include $path;
+    } else {
+        include __DIR__ . "/views/404.php";
+    }
+}
+
+
 // log_visit();
-
-$request = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
-$request = rtrim($request, "/");
-
-if ($request === "") {
-    $request = "index";
-}
-
-$path = __DIR__ . "/views/$request.php";
-
-if (file_exists($path)) {
-    include $path;
-} else {
-    include __DIR__ . "/views/404.php";
-}
+redirect_link();
