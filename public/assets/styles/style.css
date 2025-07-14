@@ -5,11 +5,17 @@ Variables, global definitions
 
 
 :root {
-    /*color palette */
-    --text-color: rgb(0, 0, 0);
-    --bcg-color: rgb(255, 255, 255);
+    /* color palette */
+    --text-color: #000000;
+    --bcg-color: #ffffff;
 
-    /*transitions time*/
+    /* cv color palette */
+    /* Might want to separate this from here in the future */
+    --cv-text-color: #ffffff;
+    --cv-bcg-color: #222222;
+    --cv-accent-color: #008080;
+
+    /* transitions time */
     --delay-short: 200ms;
     --delay-mid: 500ms;
     --delay-long: 1000ms;
