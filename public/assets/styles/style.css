@@ -11,9 +11,9 @@ Variables, global definitions
 
     /* cv color palette */
     /* Might want to separate this from here in the future */
-    --cv-text-color: #ffffff;
+    --cv-text-color: #cccccc;
     --cv-bcg-color: #222222;
-    --cv-accent-color: #008080;
+    --cv-accent-color: #209ba5;
 
     /* transitions time */
     --delay-short: 200ms;
@@ -61,6 +61,10 @@ Bootstrap-like classes etc.
 
 .hidden {
     display: none;
+}
+
+.rounded {
+    border-radius: 2em;
 }
 
 
@@ -195,3 +199,17 @@ Bootstrap-like classes etc.
 }
 
 
+/* ===== CURRICULUM ===== */
+.cv-body {
+    background: var(--cv-bcg-color);
+    color: var(--cv-text-color);
+}
+
+.cv-main {
+    box-shadow: 0 0.1em 0.5em black;
+    padding: 2em;
+}
+
+.cv-text-accent {
+    color: var(--cv-accent-color);
+}

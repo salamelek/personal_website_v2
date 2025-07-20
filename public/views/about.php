@@ -32,8 +32,8 @@ $page_title = "O meni";
                     tudi z elektroniko, računalniki, kovinami itd. ipd. Zdajle večinoma programiram, ker sem len. Med trenutnimi
                     projekti pa spada tudi: čajna mizica iz prometnega znaka, gokart z motorjem kosilnice in RC podmornica.
                     <br>
-                    Pred kratkim sem postal enthusiast slovenske narodnozabavne glasbe™ in tudi začel igrati harmoniko (
-                    skoraj znam <i>V dolini tihi</i>). Glasbeno ozadje imam tudi zaradi staršev in preveč let igranja klavirja.
+                    Pred kratkim sem postal enthusiast slovenske narodnozabavne glasbe™ in tudi začel igrati harmoniko
+                    (skoraj znam <i>V dolini tihi</i>). Glasbeno ozadje imam tudi zaradi staršev in preveč let igranja klavirja.
                     <br>
                     Seveda pa moj opis ne bi bil popoln brez kake videoigre! To je v moji krvi že od kadar sploh nisem vedel
                     kaj je en uporabniški račun. Iz tega izhaja tudi moj <i>username</i>, in sicer salamelek. Ta je bilo
