@@ -22,7 +22,7 @@
                 Odločili smo se, da lahko ignoriramo kote, saj obračanje kock se je zdelo dosti bolj "kul". <br>
                 Uvrstitveno tekmovanje je bilo porazno. Bili smo v polni "totalna polomija" fazi. Uvrstili smo se zadnji.
                 To je pomenilo, da najvišje mesto, ki smo lahko dobili je bilo 3. <br>
-                Potem pa smo (sem) sprogramirali cel mini operativni sitem z interrupti, taski, priority etc. (zraven sem
+                Potem pa smo (sem) sprogramirali cel mini operacijski sitem z interrupti, taski, priority etc. (zraven sem
                 se učil ORS). Končno smo imeli dobrega robota. Obračal je kocke!
                 Na tekmovanju smo dosegli 3. mesto :(
             </p>
