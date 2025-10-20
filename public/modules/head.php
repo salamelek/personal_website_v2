@@ -14,8 +14,9 @@ if (!isset($page_image)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="salamelek, Samuel Sluga, Samuel, Sluga">
-    <meta name="description" content="My personal website">
-    <meta name="author" content="salamelek, Samuel Sluga">
+    <meta name="description" content="Personal website of Samuel Sluga, aka salamelek.">
+    <meta name="author" content="Samuel Sluga, salamelek">
+    <meta name="robots" content="index, follow">
 
     <link rel="stylesheet" href="/assets/styles/style.css">
     <script type="module" src="/assets/scripts/main.js"></script>
