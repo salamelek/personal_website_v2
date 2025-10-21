@@ -4,13 +4,13 @@ if (!isset($page_title)) {
 }
 
 if (!isset($page_image)) {
-    $page_image = "/assets/images/logo.png";
+    $page_image = "/favicon.png";
 }
 ?>
 
 <head>
     <title><?= $page_title ?></title>
-    <link rel="icon" href="<?= $page_image ?>">
+    <link rel="icon" type="image/png" href="<?= $page_image ?>">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
