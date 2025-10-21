@@ -10,6 +10,7 @@ if (!isset($page_image)) {
 
 <head>
     <title><?= $page_title ?></title>
+    <link rel="icon" href="<?= $page_image ?>">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
