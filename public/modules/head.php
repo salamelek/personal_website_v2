@@ -4,7 +4,7 @@ if (!isset($page_title)) {
 }
 
 if (!isset($page_image)) {
-    $page_image = "/favicon.png";
+    $page_image = "/assets/images/logo.png";
 }
 ?>
 
