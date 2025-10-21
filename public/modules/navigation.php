@@ -6,7 +6,7 @@
         <h1>
             <a href="/" class="visible-link" >Domov!</a>
         </h1>
-        <div class="button" id="navigation-button">
+        <div class="button rounded" id="navigation-button">
             Kazalo
         </div>
     </div>
