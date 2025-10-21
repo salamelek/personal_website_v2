@@ -68,8 +68,25 @@ Bootstrap-like classes etc.
     border-radius: 2em;
 }
 
+.shadow {
+    box-shadow: 0 0.1em 0.5em black;
+}
+
+.shadow-light {
+    box-shadow: 0 0.1em 0.5em #888;
+}
+
 
 /* ===== NAVIGATION ===== */
+nav {
+    position: fixed;
+    width: 100%;
+    /* border-bottom-left-radius: 2em; */
+    /* border-bottom-right-radius: 2em; */
+    backdrop-filter: blur(5px);
+    transition: var(--delay-mid); 
+}
+
 .nav-container {
     padding: 0 2em;
     display: flex;
