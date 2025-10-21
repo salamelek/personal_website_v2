@@ -1,8 +1,8 @@
 <?php
 ?>
 
-<nav class="shadow-light">
-    <div class="nav-container">
+<nav>
+    <div class="nav-container shadow-light">
         <h1>
             <a href="/" class="visible-link" >Domov!</a>
         </h1>
@@ -10,7 +10,7 @@
             Kazalo
         </div>
     </div>
-    <div class="index-container" id="navigation-index">
+    <div class="index-container shadow-light" id="navigation-index">
         <h3>Prelepo kazalo</h3>
 
         <h4><a href="/" class="visible-link">Domov!</a></h4>
