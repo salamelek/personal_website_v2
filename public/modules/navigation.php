@@ -28,7 +28,7 @@
         <h4><a href="/contact" class="visible-link">Kontakt</a></h4>
         <p>Ker sem tako zanimiv, tukaj me lahko kontaktiraš!</p>
     </div>
+    <div class="exit-index-interaction hidden" id="exit-index-interaction"></div>
 </nav>
-<div class="exit-index-interaction hidden" id="exit-index-interaction"></div>
 <div id="fake-navigation">
 </div>
