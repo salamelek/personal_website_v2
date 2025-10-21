@@ -39,7 +39,7 @@ $page_title = "O meni";
                     kaj je en uporabniški račun. Iz tega izhaja tudi moj <i>username</i>, in sicer salamelek. Ta je bilo
                     prvo uporabniško ime, ki si ga je izmislil moj oče. Še vedno ga uporabljam za vse račune. Primarno sem
                     se igral minecraft, factorio in R6. Kar pa se tiče telefona, res toplo priporočam shattered pixel dungeon.
-                    Na steamu me lahko dobitš brez problemov, saj že dobro veš kateri je moj username.
+                    Na steamu me lahko dobiš brez problemov, saj že dobro veš kateri je moj username.
                 </p>
             </section>
         </div>
