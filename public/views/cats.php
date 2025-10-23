@@ -22,7 +22,7 @@ shuffle($cat_images);
 <main>
     <div class="main-container">
         <p>
-            To res ne bi bila moja spletna stran, če ne bi dodal sekcijo z luškanimi muckami! Tukaj si jih lahko ogledate :D
+            To res ne bi bila moja spletna stran, če ne bi dodal sekcije z luškanimi muckami! Tukaj si jih lahko ogledate :D
         </p>
         <p>
             Trenutno je tale prelepa galerija dokaj neurejena, saj delam na tem, da bodo slike lepo postavljene v mozaik. Do takrat pa boste uživali v nekolikšni količini belega prostora med slikami.
