@@ -20,5 +20,5 @@ if (!isset($page_image)) {
     <meta name="robots" content="index, follow">
 
     <link rel="stylesheet" href="/assets/styles/style.css?v=<?= filemtime(__DIR__ . "/../assets/styles/style.css") ?>">
-    <script type="module" src="/assets/scripts/main.js"></script>
+    <script type="module" src="/assets/scripts/main.js?v=<?= filemtime(__DIR__ . "/../assets/scripts/main.js") ?>"></script>
 </head>
