@@ -19,6 +19,6 @@ if (!isset($page_image)) {
     <meta name="author" content="Samuel Sluga, salamelek">
     <meta name="robots" content="index, follow">
 
-    <link rel="stylesheet" href="/assets/styles/style.css?v=<?= filemtime(__DIR__ . '/../assets/css/style.css') ?>">
+    <link rel="stylesheet" href="/assets/styles/style.css?v=<?= filemtime(__DIR__ . "/../assets/styles/style.css") ?>">
     <script type="module" src="/assets/scripts/main.js"></script>
 </head>
