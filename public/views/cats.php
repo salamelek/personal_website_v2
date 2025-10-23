@@ -29,7 +29,7 @@ shuffle($cat_images);
         </p>
         <div class="image-mosaic">
             <?php foreach ($cat_images as $img): ?>
-                <img src="<?= $img ?>" alt="">
+                <img src="<?= $img ?>" alt="" class="rounded-light shadow-light">
             <?php endforeach; ?>
         </div>
     </div>

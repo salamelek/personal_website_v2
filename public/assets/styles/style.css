@@ -67,6 +67,10 @@ Bootstrap-like classes etc.
     border-radius: 2em;
 }
 
+.rounded-light {
+    border-radius: 1em;
+}
+
 .shadow {
     box-shadow: 0 0.1em 0.5em black;
 }
@@ -234,6 +238,13 @@ nav {
 
 /* ===== CATS ===== */
 .image-mosaic {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-mosaic img {

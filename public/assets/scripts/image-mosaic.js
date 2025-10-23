@@ -15,7 +15,8 @@ function sort_images(images, weights) {
         let img = images[i];
         let weight = weights[i];
         
-        img.style.width = "calc(100% * 1/ " + (weight + 1) + " )";
+        img.style.width = "calc(100% * 1/ " + (weight + 1) + " - 0.25em)";
+        img.style.height = "calc(100% * 1/ " + (weight + 1) + " - 0.25em)";
     }
 }
 
