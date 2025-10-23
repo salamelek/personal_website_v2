@@ -230,3 +230,12 @@ nav {
 .cv-text-accent {
     color: var(--cv-accent-color);
 }
+
+
+/* ===== CATS ===== */
+.image-mosaic {
+}
+
+.image-mosaic img {
+    max-width: 100%;
+}

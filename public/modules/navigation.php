@@ -27,6 +27,9 @@
 
         <h4><a href="/contact" class="visible-link">Kontakt</a></h4>
         <p>Ker sem tako zanimiv, tukaj me lahko kontaktiraš!</p>
+        
+        <h4><a href="/cats" class="visible-link">Mucke :></a></h4>
+        <p>Ker so vsem všeč mucke, sem namenil stran le-tem!</p>
     </div>
     <div class="exit-index-interaction hidden" id="exit-index-interaction"></div>
 </nav>
