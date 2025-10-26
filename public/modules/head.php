@@ -6,6 +6,20 @@ if (!isset($page_title)) {
 if (!isset($page_image)) {
     $page_image = "/favicon.ico";
 }
+
+function get_latest_js_modification_time($dir) {
+    $latest = 0;
+
+    foreach (glob($dir . "/*.js") as $file) {
+        $mtime = filemtime($file);
+        
+        if ($mtime > $latest) {
+            $latest = $mtime;
+        }
+    }
+
+    return $latest;
+}
 ?>
 
 <head>
@@ -18,7 +32,10 @@ if (!isset($page_image)) {
     <meta name="description" content="Personal website of Samuel Sluga, aka salamelek.">
     <meta name="author" content="Samuel Sluga, salamelek">
     <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
     <link rel="stylesheet" href="/assets/styles/style.css?v=<?= filemtime(__DIR__ . "/../assets/styles/style.css") ?>">
-    <script type="module" src="/assets/scripts/main.js?v=<?= filemtime(__DIR__ . "/../assets/scripts/main.js") ?>"></script>
+    <script type="module" src="/assets/scripts/main.js?v=<?= get_latest_js_modification_time(__DIR__ . "/../assets/scripts"); ?>"></script>
 </head>

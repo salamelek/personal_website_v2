@@ -1,10 +1,9 @@
 <?php
 $page_title = "Mucke :)";
 
-// I know it's kind of a wildcard, but I trust that no one, including myself will fuck this up :3
-// But just in case: TODO select only image files
 $base_url = "/assets/images/cats/";
-$cat_images = glob(__DIR__ . "/../assets/images/cats/*.*");
+$cat_images = glob(__DIR__ . "/../assets/images/cats/*.{jpg,jpeg,png,gif,webp}", GLOB_BRACE);
+
 
 foreach ($cat_images as &$img) {
     $img = $base_url . basename($img);
@@ -34,6 +33,19 @@ shuffle($cat_images);
         </div>
     </div>
 </main>
+
+<div class="enlarged-image-container hidden">
+    <div class="icon-holder pointer-cursor">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="enlarged-image-wrapper shadow-light">
+        <img src="" alt="">
+        <div class="image-description-container">
+            <p>Opisi slik bodo kmalu tukajle!</p>
+        </div>
+    </div>
+</div>
+
 <?php include "modules/footer.php"; ?>
 </body>
 </html>
