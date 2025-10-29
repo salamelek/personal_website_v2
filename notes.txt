@@ -1,0 +1,21 @@
+WEBSITE NOTES
+
+
+1. DATABASE
+    1.1 Cat images
+        1.1.1 Table
+            id              obvious
+            filename        only the actual filename, the path to images is constant
+            time_uploaded   when was it uploaded
+            time_approved   when was it approved
+            author          who uploaded it (ip?)
+    
+    1.2 Banned IPs
+        If someone sends shit instead of cute cats, there will be an option to ban the sender IP
+        
+        1.2.1 - Table
+            id              key
+            ip              ip
+            time_banned     when did i ban this
+            reason          in case i want to write something
+            

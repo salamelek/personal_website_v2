@@ -51,8 +51,13 @@ function sort_images(images, weights) {
 export function init_image_mosaic() {
     // for now only one mosaic per page because I'm lazy
     let mosaic = document.querySelector(".image-mosaic");
-    let mosaic_images = Array.from(mosaic.querySelectorAll(":scope > img"));
     
+    // If no mosaic is present, fail silently
+    if (!mosaic) {
+        return;
+    }
+    
+    let mosaic_images = Array.from(mosaic.querySelectorAll(":scope > img"));
     let weights_array = mosaic_images.map(() => Math.floor(Math.random() * 3) + 1);
     
     sort_images(mosaic_images, weights_array);
