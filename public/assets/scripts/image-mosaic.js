@@ -65,6 +65,6 @@ export function init_image_mosaic() {
         mosaic_images[i].addEventListener("click", () => enlarge_image(enlarged_image_container, mosaic_images[i]));
     }
     
-    close_button.addEventListener("click", () => close_image(enlarged_image_container));
+    close_button.addEventListener("click", (event) => close_image(enlarged_image_container, close_button, event));
     enlarged_image_container.addEventListener("click", (event) => close_image(enlarged_image_container, close_button, event));
 }
